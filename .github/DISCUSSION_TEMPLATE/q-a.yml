@@ -1,0 +1,43 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Когда получите ответ, отметьте его как решение — так его сразу найдут пользователи с тем же вопросом.
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Регион
+      options:
+        - Мир Танков (Lesta Games)
+        - World of Tanks (Wargaming)
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Вопрос
+      placeholder: "Например: как поставить машину точно по центру площадки?"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Раздел мода
+      options:
+        - Каталог ангаров
+        - Любая карта как ангар (расстановка)
+        - Режим настройки в ангаре
+        - Полноэкранный режим
+        - Компактный режим
+        - Кнопка и список модификаций
+        - Установка и запуск
+        - Другое
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: Что уже пробовали
+      description: Необязательно, но помогает дать точный ответ.

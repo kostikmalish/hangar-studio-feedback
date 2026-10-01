@@ -1,0 +1,50 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Если похожее предложение уже есть, поддержите его голосом и дополните в комментариях — предложения с наибольшим числом голосов рассматриваются в первую очередь.
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Регион
+      options:
+        - Мир Танков (Lesta Games)
+        - World of Tanks (Wargaming)
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Предложение
+      placeholder: "Например: сортировка ангаров по дате добавления."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Зачем это нужно
+      description: Какую задачу решает предложение или что станет удобнее.
+    validations:
+      required: true
+
+  - type: textarea
+    id: how
+    attributes:
+      label: Как это может выглядеть
+      description: Эскиз, пример из другого мода или описание словами.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Раздел мода
+      options:
+        - Каталог ангаров
+        - Любая карта как ангар (расстановка)
+        - Режим настройки в ангаре
+        - Полноэкранный режим
+        - Компактный режим
+        - Кнопка и список модификаций
+        - Новая возможность

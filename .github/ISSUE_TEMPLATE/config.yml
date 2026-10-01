@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Предложить идею
+    url: https://github.com/kostikmalish/hangar-studio-feedback/discussions/new?category=ideas
+    about: Предложения собираются в разделе Discussions, где за них можно голосовать.
+  - name: Задать вопрос
+    url: https://github.com/kostikmalish/hangar-studio-feedback/discussions/new?category=q-a
+    about: Ответ, отмеченный как решение, будет виден всем пользователям с тем же вопросом.
